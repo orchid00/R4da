@@ -1,6 +1,6 @@
 # R and RStudio 
 
-A quick intro, [R](https://www.r-project.org/) is a programming language for data analysis, statistics and more. [RStudio](https://www.rstudio.com/) is the program that interacts between you and the language R. R and RStudio are two free available software that need individual installation. R works independent from RStudio, however you can't use RStudio without using R, so R comes first.
+A quick intro, [R](https://www.r-project.org/) is a programming language for data analysis, statistics and more. [RStudio](https://www.rstudio.com/) is the program that interacts between you and the language R. R and RStudio are two free available software that need individual installation. R works independent from RStudio, however you can't use RStudio without R, so R comes first.
 
 **Note** These instructions have been last updated on January 15th, 2018. After this date please double check the links for newer versions and updates of both software tools.
 
