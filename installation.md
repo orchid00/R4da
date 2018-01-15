@@ -38,12 +38,8 @@ Please follow the instructions depending on your Operative System (OP).
 ### Linux
 *Please install R first and then RStudio*
 
-* Download R by following the instructions for your distribution from CRAN. For most distributions, you can use your package manager (e.g. for Debian/Ubuntu run sudo apt-get install r-base, and for Fedora run sudo yum install R) 
-* To install RStudio, go to the RStudio Download page
+* Download R by following the instructions for your distribution from CRAN for linux [https://cran.r-project.org/bin/linux/](https://cran.r-project.org/bin/linux/). For most distributions, you can use your package manager (e.g. for Debian/Ubuntu run sudo apt-get install r-base, and for Fedora run sudo yum install R) 
+* To install RStudio, go to the RStudio Download page at the bottom [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 * Under Installers select the version for your distribution.
 * Once it's downloaded, double click the file to install it, or sudo dpkg -i rstudio-x.yy.zzz-amd64.deb at the terminal, or use software centre in Ubuntu.
 * Once it's installed, open RStudio to make sure it works and there is no error messages.
-
-provides software training and consultation sessions to students and staff. Our aim is to equip the UQ community with digital tools to perform data analysis and management in a clear and reproducible way.
-
-If you have R specific questions you are welcome to book a time for consultation via email - cds@library.uq.edu.au or p.martinez at uq.edu.au. Other training can be planned after consultation with CDS staff.
