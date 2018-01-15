@@ -1,22 +1,14 @@
-# R Installation instructions
+# R and RStudio 
 
-These instructions have been last updated on January 15th, 2018. After this date please double check the links for newer versions and updates of the software.
+A quick intro, [R](https://www.r-project.org/) is a programming language for data analysis, statistics and more. [RStudio](https://www.rstudio.com/) is the program that interacts between you and the language R. R and RStudio are two free available software that need individual installation. R works independent from RStudio, however you can't use RStudio without using R, so R comes first.
 
+**Note** These instructions have been last updated on January 15th, 2018. After this date please double check the links for newer versions and updates of both software tools.
 
+## Installation instructions
 
+To install software you need administrator rights. If you have a university computer and/or you do not have administrator rights you might need to contact your IT department to install the software for you. 
 
-## Set up instructions
-
-Participants are encouraged to **bring and use their own laptops with the software already installed** and **working internet connection**, to ensure that you can continue using what you learn once you leave the workshop. However, if you need, you can use one of the University computers in the training room. 
-
-
-** Install R and RStudio **
-
-For the workshop, we will use **RStudio**. RStudio is a nice interface to use the programming language **R**. *To use RStudio, you need to install both R and RStudio*.
-
-Please go through the installation steps below to install R and RStudio before the start of the workshop. Then, make sure that you not only installed them but start them up to make sure they are working. To install software you need administrator rights, if you have a UQ computer and you do not have administrator rights you might need to contact IT to install the software for you.
-
-If you have any problems installing you can use one of the university computers, or ask questions by email or after the session.
+Please follow the instructions depending on your Operative System (OP).
 
 ### Windows
 *To use RStudio, you need to install both R and RStudio*
