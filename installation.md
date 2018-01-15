@@ -15,7 +15,7 @@ Please follow the instructions depending on your Operative System (OP).
 - [linux](#linux)
 
 ### Windows
-*To use RStudio, you need to install both R and RStudio*
+* Please install R first and then RStudio*
 
 * Download R from here [https://cran.r-project.org/bin/windows/base/release.htm](https://cran.r-project.org/bin/windows/base/release.htm)
 * Run the .exe file that was just downloaded
