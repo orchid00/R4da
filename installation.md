@@ -15,7 +15,7 @@ Please follow the instructions depending on your Operative System (OP).
 - [linux](#linux)
 
 ### Windows
-* Please install R first and then RStudio*
+*Please install R first and then RStudio*
 
 * Download R from here [https://cran.r-project.org/bin/windows/base/release.htm](https://cran.r-project.org/bin/windows/base/release.htm)
 * Run the .exe file that was just downloaded
@@ -25,7 +25,7 @@ Please follow the instructions depending on your Operative System (OP).
 * Once it's installed, open RStudio to make sure it works and there is no error messages.
 
 ### Mac
-*To use RStudio, you need to install both R and RStudio*
+*Please install R first and then RStudio*
 
 * Download R from CRAN and click on Download R for (Mac) OS X [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/)
 * Select the .pkg file for the version of OS X that you have, and the file will download.
@@ -36,7 +36,7 @@ Please follow the instructions depending on your Operative System (OP).
 * Once it's installed, open RStudio to make sure it works and there is no error messages.
 
 ### Linux
-*To use RStudio, you need to install both R and RStudio*
+*Please install R first and then RStudio*
 
 * Download R by following the instructions for your distribution from CRAN. For most distributions, you can use your package manager (e.g. for Debian/Ubuntu run sudo apt-get install r-base, and for Fedora run sudo yum install R) 
 * To install RStudio, go to the RStudio Download page
