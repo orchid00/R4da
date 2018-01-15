@@ -10,9 +10,9 @@ To install software you need administrator rights. If you have a university comp
 
 Please follow the instructions depending on your Operative System (OP).
 
-- [Windows](#Windows)
-- [Mac](#Mac)
-- [linux](#Linux)
+- [Windows](#windows)
+- [Mac](#mac)
+- [linux](#linux)
 
 ### Windows
 *To use RStudio, you need to install both R and RStudio*
