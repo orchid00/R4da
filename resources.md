@@ -9,12 +9,14 @@
 ## Learning for Beginers
 * [Software Carpentry](http://swcarpentry.github.io/r-novice-gapminder/)
 * [Data Carpentry](http://www.datacarpentry.org/R-ecology-lesson/)
+* [A simple style guide from google](https://google.github.io/styleguide/Rguide.xml)
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
 
 ## Learning for Intermediates
 * R for data science http://r4ds.had.co.nz/
 * Happy git with R http://happygitwithr.com/
+* R style guide http://style.tidyverse.org/
 
 ## Learning for advanced users
 * Advanced R https://adv-r.hadley.nz/
