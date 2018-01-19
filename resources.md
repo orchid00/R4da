@@ -17,6 +17,7 @@
 * R for data science http://r4ds.had.co.nz/
 * Happy git with R http://happygitwithr.com/
 * R style guide http://style.tidyverse.org/
+* R markdown http://rmarkdown.rstudio.com/authoring_rcodechunks.html
 
 ## Learning for advanced users
 * Advanced R https://adv-r.hadley.nz/
