@@ -14,6 +14,7 @@
 
 ## Learning for Intermediates
 * R for data science http://r4ds.had.co.nz/
+* Happy git with R http://happygitwithr.com/
 
 ## Learning for advanced users
 * Advanced R https://adv-r.hadley.nz/
