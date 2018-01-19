@@ -1,4 +1,4 @@
-# Useful Links
+# Useful Links to continue your R learning
 
 ## Cheatsheet
 
@@ -7,6 +7,8 @@
 * R dplyr cheatsheet https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
 
 ## Learning for Beginers
+* [Software Carpentry](http://swcarpentry.github.io/r-novice-gapminder/)
+* [Data Carpentry](http://www.datacarpentry.org/R-ecology-lesson/)
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
 
@@ -21,6 +23,7 @@
 * RStudio online learning https://www.rstudio.com/online-learning/
 * Basic and advanced manuals https://cran.r-project.org/manuals.html
 * Ask about any function or package http://www.rdocumentation.org/
+* R documentation is provided by datacamp find also courses there https://www.datacamp.com/
 * If you are looking how-to's or how to fix an error http://stackoverflow.com/questions/tagged/r
 * If you need an R and/or RStudio workshop/session, please contact me. 
 
