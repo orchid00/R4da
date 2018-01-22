@@ -29,7 +29,7 @@ Start out by installing R and then RStudio^[See installation instructions [insta
 
 # Starting with programing
 
-Learn things that last longer - pick your battles - Learn the fundamentals^[["Learning to code is a neverending journey with a set of challenges and delights unique to each person"](https://twitter.com/aprilwensel/status/953387594783506433)]
+Learn things that last longer - pick your battles - Learn the fundamentals^[["Learning to code is a never ending journey with a set of challenges and delights unique to each person"](https://twitter.com/aprilwensel/status/953387594783506433)]
 
 # Remember
 
@@ -195,9 +195,9 @@ Let's introduce some data to R
 
 ```{r, eval=FALSE}
 download.file(url = "tiny.cc/example.csv", 
-              destfile = "data/species_information.csv")
+              destfile = "data/example.csv")
 
-mydata <- read.csv(file = "data/species_information.csv")
+mydata <- read.csv(file = "data/example.csv")
 ```
 
 ## Exercise 7 - Importing data into R  (3 min)
@@ -226,6 +226,10 @@ You can also check `sessionInfo()`
 * Use what you have learned to install the ggplot2 package.
 If you are keen you can install the [tidyverse](https://www.tidyverse.org/) package.
 
+# Close project
+
+"File" "close project" (It asks if you want to save your data), then you can close RStudio.
+
 # Resources
 
 There are plenty of R [resources](https://github.com/orchid00/R4da/blob/master/resources.md), this is 
@@ -234,14 +238,17 @@ only a short list.
 # Feedback
 
 Please send your annonymous feedback through this link
+[http://tiny.cc/elixir_feedback](http://tiny.cc/elixir_feedback)
 
 # Open source
 
-This handout was written in Rmarkdown using [Tufte](https://rstudio.github.io/tufte/) style.
+This handout was written in Rmarkdown, and uses the open-source [Tufte](https://rstudio.github.io/tufte/) style. It has been published on 
+[Github pages](https://pages.github.com/) and also as a [PDF handout](). 
 
 All of the information of my courses can be found on my Github repo [R for Data Analysis](https://github.com/orchid00/R4da). These resources are freely 
-available under the Creative Commons - Attribution Licence. You may re-use and re-mix the material in any way you wish, without asking permission, provided you cite the original source. That is a link back to the website [R for Data Analysis](https://github.com/orchid00/R4da) and the ORCID ID 0000-0002-8990-1985.
+available under the Creative Commons - Attribution Licence. You may re-use and re-mix the material in any way you wish, without asking permission, **provided you cite the original source**. That is a link back to the website [R for Data Analysis](https://github.com/orchid00/R4da) and the ORCID ID 0000-0002-8990-1985.
 
-This publication is resulting from my involvement with [Elixir-Belgium](https://www.elixir-belgium.org/) as data science and bioinformatics trainer. 
+I acknowledge this publication is resulting from support of [Elixir-Belgium](https://www.elixir-belgium.org/) for my role as data science 
+and bioinformatics trainer. 
 
 Last update: `r Sys.Date()`
