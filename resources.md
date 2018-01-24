@@ -19,6 +19,7 @@
 * R style guide http://style.tidyverse.org/
 * R markdown http://rmarkdown.rstudio.com/authoring_rcodechunks.html
 * R styler for Rstudio (addin) http://styler.r-lib.org/
+* Free Webinars from RStudio https://github.com/rstudio/webinars
 
 ## Learning for advanced users
 * Advanced R https://adv-r.hadley.nz/
