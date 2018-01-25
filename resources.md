@@ -31,6 +31,7 @@
 * Ask about any function or package http://www.rdocumentation.org/
 * R documentation is provided by datacamp find also courses there https://www.datacamp.com/
 * If you are looking how-to's or how to fix an error http://stackoverflow.com/questions/tagged/r
+* R news and tutorials contributed from the R community https://www.r-bloggers.com/
 * If you need an R and/or RStudio workshop/session, please contact me. 
 
 # Contact
