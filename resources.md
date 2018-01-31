@@ -12,6 +12,7 @@
 * [A simple style guide from google](https://google.github.io/styleguide/Rguide.xml)
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
+* Check points 1-7 [Intro to R from the R-project manuals](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
 
 ## Learning for Intermediates
 * R for data science http://r4ds.had.co.nz/
