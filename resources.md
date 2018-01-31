@@ -6,7 +6,7 @@
 * R ggplot2 Cheatsheet https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
 * R dplyr cheatsheet https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
 
-## Learning for Beginers
+## Learning for Beginners
 * [Software Carpentry](http://swcarpentry.github.io/r-novice-gapminder/)
 * [Data Carpentry](http://www.datacarpentry.org/R-ecology-lesson/)
 * [A simple style guide from google](https://google.github.io/styleguide/Rguide.xml)
