@@ -49,7 +49,7 @@
 
 
 # Contact
-* If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me here as well.
+* If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
 Feb 1st, 2018
