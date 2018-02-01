@@ -1,6 +1,6 @@
-# Useful Links to continue your R learning
+# Useful links to continue your path on self-learning R
 
-## Cheatsheet
+## Cheatsheets
 
 * RStudio Cheatsheet https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf
 * R ggplot2 Cheatsheet https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
@@ -47,11 +47,9 @@
 * Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
 * Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 
-* If you need an R and/or RStudio workshop/session, please contact me. 
 
 # Contact
-
-If you have further questions, here is my website https://paulaandrea.rbind.io/ and ways to contact me
+* If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me here as well.
 
 # Last Update
 Feb 1st, 2018
