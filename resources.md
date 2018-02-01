@@ -36,7 +36,6 @@
 
 
 ## Extra learning for everyone
-
 * RStudio online learning https://www.rstudio.com/online-learning/
 * Basic and advanced manuals https://cran.r-project.org/manuals.html
 * Ask about any function or package http://www.rdocumentation.org/
