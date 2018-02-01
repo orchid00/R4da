@@ -51,7 +51,7 @@
 
 # Contact
 
-If you have further questions, please contact me https://paulaandrea.rbind.io/
+If you have further questions, here is my website https://paulaandrea.rbind.io/ and ways to contact me
 
 # Last Update
 Feb 1st, 2018
