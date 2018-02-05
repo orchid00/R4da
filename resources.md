@@ -14,6 +14,7 @@
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
 * Check points 1-7 [Intro to R from the R-project manuals](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
+* The R programing environment Chapter 1 [Section 1.1 and 1.2](https://bookdown.org/rdpeng/RProgDA/)
 
 ## Learning for Intermediates
 * R for data science from Garrett Grolemund and Hadley Wickham http://r4ds.had.co.nz/
@@ -24,6 +25,7 @@
 * Free Webinars from RStudio https://github.com/rstudio/webinars
 * Fundamentals of data visualisation from Claus O. Wilke http://serialmentor.com/dataviz/index.html
 * Coding intermediate R https://ugoproto.github.io/ugo_r_doc/Intermediate_R/
+* Programing in R Chapter 1 [Section 1.3 and 1.10](https://bookdown.org/rdpeng/RProgDA/)
 
 ## Learning for advanced users
 * Advanced R from Hadley Wickham https://adv-r.hadley.nz/
@@ -33,6 +35,7 @@
 * Package xts for eXtensible Time Series: https://www.datacamp.com/community/blog/r-xts-cheat-sheet
 * Package xts and zoo https://ugoproto.github.io/ugo_r_doc/Time+Series+in+R+The+Power+of+xts+and+zoo/
 * Parallel computing in R https://ugoproto.github.io/ugo_r_doc/Parallel%20computing%20in%20R/
+* Mastering Software Development in R from [Chapter 2](https://bookdown.org/rdpeng/RProgDA/advanced-r-programming.html)
 
 
 ## Extra learning for everyone
