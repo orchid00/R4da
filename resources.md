@@ -14,7 +14,8 @@
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
 * Check points 1-7 [Intro to R from the R-project manuals](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
-* The R programing environment Chapter 1 [Section 1.1 and 1.2](https://bookdown.org/rdpeng/RProgDA/)
+* The R programing environment Chapter 1 [Section 1.1 to 1.6, you can skip sections](https://bookdown.org/rdpeng/RProgDA/the-r-programming-environment.html)
+* Basic plotting with ggplot2 [Section 4.1](https://bookdown.org/rdpeng/RProgDA/basic-plotting-with-ggplot2.html)
 
 ## Learning for Intermediates
 * R for data science from Garrett Grolemund and Hadley Wickham http://r4ds.had.co.nz/
@@ -25,7 +26,8 @@
 * Free Webinars from RStudio https://github.com/rstudio/webinars
 * Fundamentals of data visualisation from Claus O. Wilke http://serialmentor.com/dataviz/index.html
 * Coding intermediate R https://ugoproto.github.io/ugo_r_doc/Intermediate_R/
-* Programing in R Chapter 1 [Section 1.3 and 1.10](https://bookdown.org/rdpeng/RProgDA/)
+* The R programing environment Chapter 1 [Section 1.7 to 1.10](https://bookdown.org/rdpeng/RProgDA/the-r-programming-environment.html)
+* Customizing ggplot2 plots (https://bookdown.org/rdpeng/RProgDA/customizing-ggplot2-plots.html)
 
 ## Learning for advanced users
 * Advanced R from Hadley Wickham https://adv-r.hadley.nz/
@@ -55,4 +57,4 @@
 * If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
-Feb 1st, 2018
+Feb 5th, 2018
