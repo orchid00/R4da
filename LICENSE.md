@@ -3,7 +3,7 @@
 Copyright (c) 2018 Paula Andrea Martinez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this material and associated documentation files.
-This material is freely available under the Creative Commons - [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0). You may re-use and adapt the material in any way you wish, without asking permission, provided you cite the original source (e.g., provide a link back to this repository [https://github.com/orchid00/R4da](https://github.com/orchid00/R4da) and the ORCID ID of the author 0000-0002-8990-1985). 
+This material is freely available under the Creative Commons - [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0). You may re-use and adapt the material in any way you wish, without asking permission, provided you cite the original source (e.g., provide a link back to this repository [https://github.com/orchid00/R4da](https://github.com/orchid00/R4da) and the ORCID of the author 0000-0002-8990-1985). 
 
 This copyright notice LICENSE shall be included in all copies or substantial portions of the Software.
 
