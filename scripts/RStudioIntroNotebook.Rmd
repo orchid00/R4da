@@ -1,12 +1,12 @@
 ---
 title: "RStudio Intro Handout"
 author: "Paula Andrea Martinez"
-date: "`r Sys.Date()`"
+date: "2018-01-23"
 output:
+  tufte::tufte_html: default
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
-  tufte::tufte_html: default
 ---
 
 ```{r setup, include=FALSE}
@@ -243,11 +243,11 @@ Please send your annonymous feedback through this link
 # Open source
 
 This handout was written in Rmarkdown, and uses the open-source [Tufte](https://rstudio.github.io/tufte/) style. It has been published on 
-[Github pages](https://pages.github.com/) and also as a 
+[Github pages](https://orchid00.github.io/RStudioIntroNotebook.html) and also as a 
 [PDF handout](https://github.com/orchid00/R4da/raw/master/scripts/RStudioIntroNotebook.pdf). 
 
 All of the information of my courses can be found on my Github repo [R for Data Analysis](https://github.com/orchid00/R4da). These resources are freely 
-available under the Creative Commons - Attribution Licence. You may re-use and re-mix the material in any way you wish, without asking permission, **provided you cite the original source**. That is a link back to the website [R for Data Analysis](https://github.com/orchid00/R4da) and the ORCID ID 0000-0002-8990-1985.
+available under the Creative Commons - Attribution Licence. You may re-use and adapt the material in any way you wish, without asking permission, **provided you cite the original source**. That is a link back to the website [R for Data Analysis](https://github.com/orchid00/R4da) and my ORCID 0000-0002-8990-1985.
 
 I acknowledge this publication is resulting from support of [Elixir-Belgium](https://www.elixir-belgium.org/) for my role as data science 
 and bioinformatics trainer. 
