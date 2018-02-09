@@ -3,5 +3,9 @@
 .RData
 .Ruserdata
 scripts/*.html
+scripts/*_cache
+scripts/*_files
+scripts/skeleton.bib
 data/*xls*
 R4da.Rproj
+resources.html
