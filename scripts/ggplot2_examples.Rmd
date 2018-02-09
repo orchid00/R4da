@@ -1,0 +1,89 @@
+---
+title: "Motivation R and graphics"
+author: "Paula Andrea Martinez"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+library(ggplot2)
+```
+
+The **g**rammar of **g**raphics is a language for describing graphs.
+Here are some common examples from the package ggplot2 to inspire you on how to use R to show your data.
+
+```{r eval=FALSE}
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+
+# Scatterplot
+
+```{r fig.fullwidth=TRUE, cache=TRUE}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy))
+```
+
+# Colour full scatterplots
+
+```{r fig.show='hold', fig.cap="Two plots in one figure environment"}
+p <- ggplot(data = mpg, 
+            mapping = aes(x = displ, y = hwy, 
+                     colour = manufacturer)) + 
+       geom_point()
+p
+p + geom_smooth(method = "lm")
+```
+
+# Stacked barplot
+
+```{r fig.fullwidth=TRUE, cache=TRUE}
+ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, 
+                         fill = clarity))
+```
+
+# Boxplots
+
+```{r inlcude=FALSE}
+library(datasets)
+
+data(airquality)
+airquality$Month <- factor(
+             airquality$Month,
+             labels = c("May", 
+                        "Jun", 
+                        "Jul", 
+                        "Aug", 
+                        "Sep"))
+```
+
+```{r fig.fullwidth=TRUE, warning=FALSE}
+ggplot(data = airquality) + 
+  geom_boxplot(mapping = 
+                 aes(x = Month, y = Ozone))
+```
+
+# Polar plot
+```{r fig.fullwidth=TRUE, cache=TRUE}
+ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, fill = cut),
+           width = 1) + 
+  coord_polar()
+```
+
+
