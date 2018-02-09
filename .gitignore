@@ -6,6 +6,7 @@ scripts/*.html
 scripts/*_cache
 scripts/*_files
 scripts/skeleton.bib
+scripts/*bbl
 data/*xls*
 R4da.Rproj
 resources.html
