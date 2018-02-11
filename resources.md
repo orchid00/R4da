@@ -42,6 +42,7 @@
 
 ## Extra learning for everyone
 * RStudio online learning https://www.rstudio.com/online-learning/
+* RStudio list of resources https://support.rstudio.com/hc/en-us/articles/200552336
 * Basic and advanced manuals https://cran.r-project.org/manuals.html
 * Ask about any function or package http://www.rdocumentation.org/
 * R documentation is provided by datacamp find also courses there https://www.datacamp.com/
