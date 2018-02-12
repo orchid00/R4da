@@ -10,7 +10,7 @@
 * [Intro to RStudio](http://stat545.com/block002_hello-r-workspace-wd-project.html) from Jenny Brian (20 min)
 * [Software Carpentry](http://swcarpentry.github.io/r-novice-gapminder/) Suggested for beginners up to episode 8. 
 * [Data Carpentry](http://www.datacarpentry.org/R-ecology-lesson/) Suggested for beginners up to episode 5. 
-* [A simple style guide from google](https://google.github.io/styleguide/Rguide.xml)
+* [A simple style guide from google](https://google.github.io/styleguide/Rguide.xml) or the [Style guide](http://adv-r.had.co.nz/Style.html) from Hadley Wickham
 * swirl http://swirlstats.com/
 * AdventR http://milton-the-cat.rocks/home/adventr.html  
 * Check points 1-7 [Intro to R from the R-project manuals](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
