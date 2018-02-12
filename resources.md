@@ -28,7 +28,8 @@
 * Fundamentals of data visualisation from Claus O. Wilke http://serialmentor.com/dataviz/index.html
 * Coding intermediate R https://ugoproto.github.io/ugo_r_doc/Intermediate_R/
 * The R programing environment Chapter 1 [Section 1.7 to 1.10](https://bookdown.org/rdpeng/RProgDA/the-r-programming-environment.html)
-* Customizing ggplot2 plots (https://bookdown.org/rdpeng/RProgDA/customizing-ggplot2-plots.html)
+* Customizing ggplot2 plots [graphs](https://bookdown.org/rdpeng/RProgDA/customizing-ggplot2-plots.html)
+* Data Manipulation using R [dplyr and ggplot2](http://bioinformatics-core-shared-training.github.io/r-intermediate/)
 
 ## Learning for advanced users
 * Advanced R from Hadley Wickham https://adv-r.hadley.nz/
