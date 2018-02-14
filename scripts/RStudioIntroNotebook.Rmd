@@ -3,10 +3,9 @@ title: "RStudio Intro Handout"
 author: "Paula Andrea Martinez"
 date: "2018-01-23"
 output:
-  tufte::tufte_html: default
   tufte::tufte_handout:
-    citation_package: natbib
     latex_engine: xelatex
+  tufte::tufte_html: default
 ---
 
 ```{r setup, include=FALSE}
@@ -27,7 +26,7 @@ Start out by installing R and then RStudio^[See installation instructions [insta
 - Questions are always welcome
 - Let's start with short introductions
 
-# Starting with programing
+# Starting with programming
 
 Learn things that last longer - pick your battles - Learn the fundamentals^[["Learning to code is a never ending journey with a set of challenges and delights unique to each person"](https://twitter.com/aprilwensel/status/953387594783506433)]
 
@@ -99,22 +98,22 @@ use the function `dir.create`]. [Remember](#remember) to use naming conventions 
 
 * RStudio menu (top left corner): click "File" menu button, then "New File", 
   then "R script". You can also create a new script with the shortcut 
-  "Ctrl+Shift+N" for mac users use "cmd" instead of "ctrl".^[You can run code from a script using "Ctrl+Enter" (line by line or a selection of code)]
+  "Ctrl+Shift+N" for Mac users use "cmd" instead of "ctrl".^[You can run code from a script using "Ctrl+Enter" (line by line or a selection of code)]
 * Save your script. You can click on the save icon or "Ctrl+S". Select the 
   scripts folder and type a name i.e. "learning.R"
   
 # Functions
 
-![A simple function](../img/function-box.jpg){ width=10%}
+![A simple function](../img/function-box.png){ width=10%}
 
 # How to get help
 
 There are three ways to find help using RStudio^[The help panel will show you 
 the Documentation. How to use a function, input, details, and examples]
 
-1. ?functioname 
-2. help(functioname)
-3. Press F1 or "cmd F1" on the functioname
+1. ?functionName 
+2. help(functionName)
+3. Press F1 or "cmd F1" on the functionName
 
 ## Exercise 4 - Check the description of these functions (2 min)
 
@@ -144,8 +143,10 @@ To get the hang of R, we start using it as a simple calculator. Type 2 + 2 direc
 
 R can calculate and store multiple values in *variables* or *objects* so we can access them later. Use: `objectname <- value`.
 
-* Notice the **assignment operator** `<-` 
-* Value can be a given value or a result of a calculation or transformation
+* Notice the **assignment operator** 
+   **<-** 
+   
+* Values can be a given or can be a result of a calculation or a transformation
 
 # R Style
 
@@ -166,7 +167,7 @@ I recommend two style guides:
 - factor
 - list
 - matrix
-- dataframe
+- data.frame
 
 ## Example of a numeric vector
 
@@ -237,12 +238,12 @@ only a short list.
 
 # Feedback
 
-Please send your annonymous feedback through this link
+Please send your anonymous feedback through this link
 [http://tiny.cc/elixir_feedback](http://tiny.cc/elixir_feedback)
 
 # Open source
 
-This handout was written in Rmarkdown, and uses the open-source [Tufte](https://rstudio.github.io/tufte/) style. It has been published on 
+This handout was written in Rmarkdown and uses the open-source [Tufte](https://rstudio.github.io/tufte/) style. It has been published on 
 [Github pages](https://orchid00.github.io/RStudioIntroNotebook.html) and also as a 
 [PDF handout](https://github.com/orchid00/R4da/raw/master/scripts/RStudioIntroNotebook.pdf). 
 
