@@ -3,10 +3,10 @@ title: "R foundations Handout"
 author: "Paula Andrea Martinez"
 date: "2018-02-19"
 output:
+  tufte::tufte_html: default
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
-  tufte::tufte_html: default
 ---
 
 ```{r setup, include=FALSE}
@@ -94,7 +94,7 @@ We will soon work on these panels, but first be shortly introduced.
 
 1. The upper-left panel is the editor where we interact with code and scripts.
 2. The panel in the upper-right, where it says *Environment is empty* will 
-   show you the variables that you are currently working with.
+   show you the objects that you are currently working with.
 3. The lower-left panel is called the console, which runs the R code. It
    only saves the code temporarily so it is mostly used as testing ground. 
 4. The panel in the bottom-right will display files, plots, packages, help and more.
@@ -147,20 +147,20 @@ directly into the console panel and press enter. You should see this:
 * To run code from a script you need to click *Ctrl+Enter* or click the button
   **Run** (green right direction arrow)
 
-# R variables or objects
+# R objects
 
-R can calculate, but we would also like to save these results. We can store one or multiple values in *variables* to access them later. 
+R can calculate, but we would also like to save these results. We can store one or multiple values in *objects* to access them later. 
 
-* Syntax: **variableName <- value**
+* Syntax: **objectName <- value**
 * Notice the symbol **<-** its called **assignment operator**  
 * Values can be fixed, calculated or a result of a transformation
 
 When in doubt of naming conventions and style check^[[a style guide](http://adv-r.had.co.nz/Style.html)].
 
-Let's create a few variables together
+Let's create a few objects together
 
 ```{r}
-# Creating a few variables --------------------------
+# Creating a few objects --------------------------
 
 # text should be inside double quotes
 today <- "Monday"
@@ -175,7 +175,7 @@ myAnswer <- TRUE
 
 Now, stop for a sec and have a look at the style guide^[[ style guide](http://adv-r.had.co.nz/Style.html)] again and
 discuss with your neighbour. If you are keen and there is time, feel free to
-change the values of the variables we just created.
+change the values of the objects we just created.
 
 # Functions
 
@@ -194,21 +194,21 @@ the Documentation with examples at the end]
 
 From now on, I will encourage you to use the help for any new function you encounter.
 
-## Exercise 7 - Using the help on RStudio to find your variables (1 min)
+## Exercise 7 - Using the help on RStudio to find your objects (1 min)
 
 - What does `ls` stand for?
 - test `ls()` on your script
-- How many variables do you have in your environment?
+- How many objects do you have in your environment?
 
 # R data types
 
-We had created these three variables with specific R data types
+We had created these three objects with specific R data types
 
 - numeric
 - logical
 - character
 
-## Exercise 8 - Check the R data type of your variables using `class` (2 min)
+## Exercise 8 - Check the R data type of your objects using `class` (2 min)
 
 - Articulate a description of each R data type
 
@@ -279,7 +279,7 @@ mydata <- read.csv(file = "data/example.csv")
 - Use the code above to import data into R.^[You can either read the example.csv file or copy another csv file to your data folder]
 - It is recommended that you always use the help to find out more about the new 
 functions before using them.^[You can also read other kinds of files using `read.table` or use functions from packages like **readr**]
-- checkout the function `str` with your new variable
+- checkout the function `str` with your new object
 
 ## Exercise 13 - Let's discuss
 
