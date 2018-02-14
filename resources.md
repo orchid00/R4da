@@ -17,6 +17,7 @@
 * The R programing environment Chapter 1 [Section 1.1 to 1.6, you can skip sections](https://bookdown.org/rdpeng/RProgDA/the-r-programming-environment.html)
 * Basic plotting with ggplot2 [Section 4.1](https://bookdown.org/rdpeng/RProgDA/basic-plotting-with-ggplot2.html)
 * [Basic R and ggplot2](https://danmaclean.github.io/ggplotbook/index.html) from Dan MacLean (10 hours) each chapter has exercises
+* [R for biologists](http://r-bio.github.io/01-intro-R/) from François Michonneau 
 
 ## Learning for Intermediates
 * R for data science from Garrett Grolemund and Hadley Wickham http://r4ds.had.co.nz/
