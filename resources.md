@@ -40,7 +40,7 @@
 * Package xts for eXtensible Time Series: https://www.datacamp.com/community/blog/r-xts-cheat-sheet
 * Package xts and zoo https://ugoproto.github.io/ugo_r_doc/Time+Series+in+R+The+Power+of+xts+and+zoo/
 * Parallel computing in R https://ugoproto.github.io/ugo_r_doc/Parallel%20computing%20in%20R/
-* Mastering Software Development in R from [Chapter 2](https://bookdown.org/rdpeng/RProgDA/advanced-r-programming.html) or [buy the book](https://leanpub.com/msdr)
+* Mastering Software Development in R from [Chapter 2](https://bookdown.org/rdpeng/RProgDA/advanced-r-programming.html) from Roger D. Peng, Sean Kross, and Brooke Anderson
 
 
 ## Extra learning for everyone
