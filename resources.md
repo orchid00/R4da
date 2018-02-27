@@ -55,10 +55,11 @@
 * Intro to statistics using R https://ugoproto.github.io/ugo_r_doc/A_Hands-on_Introduction_to_Statistics_with_R,_Course_One,_Introduction/
 * Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
 * Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
+* Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
 
 
 # Contact
 * If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
-Feb 5th, 2018
+Feb 27th, 2018
