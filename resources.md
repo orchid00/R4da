@@ -66,4 +66,4 @@
 * If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
-Feb 27th, 2018
+March 1, 2018
