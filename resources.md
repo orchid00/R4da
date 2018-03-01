@@ -57,6 +57,8 @@
 * Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 * Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
 * ggplot2 Colour palettes https://learnr.wordpress.com/2009/04/15/ggplot2-qualitative-colour-palettes/
+* R colour names http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
+* Workflow vs script by Jenny Brian https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 
 
 
