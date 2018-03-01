@@ -56,6 +56,8 @@
 * Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
 * Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 * Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+* ggplot2 Colour palettes https://learnr.wordpress.com/2009/04/15/ggplot2-qualitative-colour-palettes/
+
 
 
 # Contact
