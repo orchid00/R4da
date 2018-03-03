@@ -48,22 +48,26 @@
 * RStudio list of resources https://support.rstudio.com/hc/en-us/articles/200552336
 * Basic and advanced manuals https://cran.r-project.org/manuals.html
 * Ask about any function or package http://www.rdocumentation.org/
+* Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 * R documentation is provided by datacamp find also courses there https://www.datacamp.com/
 * If you are looking how-to's or how to fix an error http://stackoverflow.com/questions/tagged/r
 * R news and tutorials contributed from the R community https://www.r-bloggers.com/
 * Stats 545 tutorials http://stat545.com/topics.html
-* Intro to statistics using R https://ugoproto.github.io/ugo_r_doc/A_Hands-on_Introduction_to_Statistics_with_R,_Course_One,_Introduction/
-* Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
-* Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
-* Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+
+### colours in R
+* http://colorbrewer2.org
 * ggplot2 Colour palettes https://learnr.wordpress.com/2009/04/15/ggplot2-qualitative-colour-palettes/
 * R colour names http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
-* Workflow vs script by Jenny Brian https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 
+### examples and posts
+* Intro to statistics using R https://ugoproto.github.io/ugo_r_doc/A_Hands-on_Introduction_to_Statistics_with_R,_Course_One,_Introduction/
+* Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+* Workflow vs script by Jenny Brian https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
+* Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
 
 
 # Contact
 * If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
-March 1, 2018
+March 3, 2018
