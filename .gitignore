@@ -10,3 +10,9 @@ scripts/*bbl
 data/*xls*
 R4da.Rproj
 resources.html
+# ingnore test
+data/An*
+img/flat_violin.png*
+# tests
+scripts/geom_flat*
+scripts/purrr*
