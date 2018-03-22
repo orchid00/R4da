@@ -40,7 +40,7 @@
 * Package xts for eXtensible Time Series: https://www.datacamp.com/community/blog/r-xts-cheat-sheet
 * Package xts and zoo https://ugoproto.github.io/ugo_r_doc/Time+Series+in+R+The+Power+of+xts+and+zoo/
 * Parallel computing in R https://ugoproto.github.io/ugo_r_doc/Parallel%20computing%20in%20R/
-* Mastering Software Development in R from [Chapter 2](https://bookdown.org/rdpeng/RProgDA/advanced-r-programming.html) or [buy the book](https://leanpub.com/msdr)
+* Mastering Software Development in R from [Chapter 2](https://bookdown.org/rdpeng/RProgDA/advanced-r-programming.html) from Roger D. Peng, Sean Kross, and Brooke Anderson
 
 
 ## Extra learning for everyone
@@ -48,17 +48,26 @@
 * RStudio list of resources https://support.rstudio.com/hc/en-us/articles/200552336
 * Basic and advanced manuals https://cran.r-project.org/manuals.html
 * Ask about any function or package http://www.rdocumentation.org/
+* Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 * R documentation is provided by datacamp find also courses there https://www.datacamp.com/
 * If you are looking how-to's or how to fix an error http://stackoverflow.com/questions/tagged/r
 * R news and tutorials contributed from the R community https://www.r-bloggers.com/
 * Stats 545 tutorials http://stat545.com/topics.html
+
+### colours in R
+* http://colorbrewer2.org
+* ggplot2 Colour palettes https://learnr.wordpress.com/2009/04/15/ggplot2-qualitative-colour-palettes/
+* R colour names http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
+
+### examples and posts
 * Intro to statistics using R https://ugoproto.github.io/ugo_r_doc/A_Hands-on_Introduction_to_Statistics_with_R,_Course_One,_Introduction/
+* Top 50 ggplot2 visualisations by Selva Prabhakaran http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+* Workflow vs script by Jenny Brian https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 * Intro to General Linear Models from Chris Brown http://www.seascapemodels.org/rstats/2018/01/19/intro-to-glms.html
-* Bioconductor http://bioconductor.org/ datasets and tools in R for Bioinformatics
 
 
 # Contact
 * If you need an R and/or RStudio workshop/session, please contact me. My website is https://paulaandrea.rbind.io/ and you can contact me on github as well.
 
 # Last Update
-Feb 5th, 2018
+March 3, 2018
