@@ -32,3 +32,7 @@ First we need our tools
 ## It's worth the ride
 Not so easy new concepts, but really worth the investment!
 "The idea of passing a function to another function is extremely powerful idea"[R for data science - Iteration](http://r4ds.had.co.nz/iteration.html). 
+
+Links to hackmd
+https://hackmd-ce.herokuapp.com/s/H1wfZ0DqG#
+
