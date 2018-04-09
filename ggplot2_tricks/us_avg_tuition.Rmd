@@ -1,0 +1,146 @@
+---
+title: "Tidy tuesday - week 1 US Tuition Costs"
+author: "Paula Andrea Martinez @orchid00"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Tidy tuesday
+[Tidy tuesday](https://github.com/rfordatascience/tidytuesday) seemed like a really nice game for me, hence I've tried to do something quick with the dataset of the week.
+
+## 1. Libraries
+```{r}
+library(tidyverse)
+library(readxl)
+library(lubridate)
+```
+
+## 2. download the dataset
+The dataset has been downloaded and stored in a `data` folder of the project.
+```{r}
+download.file(url = "https://github.com/rfordatascience/tidytuesday/blob/master/data/us_avg_tuition.xlsx?raw=true", destfile = "../data/us_avg_tuition.xlsx")
+```
+
+## 3. Read the data
+```{r}
+raw <- readxl::read_excel("../data/us_avg_tuition.xlsx")
+```
+
+## 4. Explore the data a bit
+```{r}
+class(raw)
+```
+
+```{r}
+glimpse(raw)
+```
+
+There are twelve year observations per state. I decided to use all the years.
+
+## 5. tidy the data
+```{r}
+# tidy dataset
+mydata <- gather(raw, key = Year, value = Tuition, -State)
+glimpse(mydata)
+```
+```{r}
+# clean years to have for digit numbers
+mydata <- 
+    mydata %>% 
+    mutate(Year = str_sub(Year, start = 1, end = 4))
+
+glimpse(mydata)
+```
+
+### 5.1 How many states are in this dataset?
+
+```{r}
+unique(mydata$State)
+```
+
+## 6. Mean by state
+```{r}
+mydata1 <-
+    mydata %>% 
+    select(State, Tuition) %>% 
+    group_by(State) %>% 
+    summarise(Mean_State = mean(Tuition)) %>% 
+    arrange(desc(Mean_State))
+glimpse(mydata1)
+```
+
+```{r include=FALSE}
+# Setting a custom ggplot2 function ---
+# *** Functional Programming ***
+# This function makes a pretty ggplot theme
+# This function takes no arguments!
+theme_LPD <- function(){
+  theme_bw() +
+    theme(axis.text.x = element_text(size = 12, vjust = 1, hjust = 1),
+          axis.text.y = element_text(size = 12),
+          axis.title.x = element_text(size = 14, face = "plain"),             
+          axis.title.y = element_text(size = 14, face = "plain"),             
+          panel.grid.major.x = element_blank(),                                          
+          panel.grid.minor.x = element_blank(),
+          panel.grid.minor.y = element_blank(),
+          panel.grid.major.y = element_blank(),  
+          plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), units = , "cm"),
+          plot.title = element_text(size = 20, vjust = 1, hjust = 0.5),
+          legend.text = element_text(size = 12, face = "italic"),          
+          legend.title = element_blank(),                              
+          legend.position = c(0.8, 0.8))
+}
+```
+
+## 7. Visualising the mean tuition by state
+```{r fig.height=10}
+ggplot(mydata1) +
+    geom_bar(aes(x = reorder(State, Mean_State), y = Mean_State),
+             stat = "identity", position = "dodge",
+                 fill = "cadetblue3") +
+    coord_flip() +
+    theme_LPD()
+    
+```
+
+## 8. Another way of visualizing in respect of the mean
+```{r}
+mydata2 <-
+    mydata %>% 
+    group_by(State) %>% 
+    mutate(Mean_State = mean(Tuition)) %>% 
+    ungroup() %>% 
+    mutate(AwayFromMean = Mean_State - mean(Mean_State)) %>% 
+    mutate(Category = ifelse(AwayFromMean < 0, "less than the mean", "higher than the mean")) %>% 
+    arrange(desc(AwayFromMean)) %>% 
+    select(State, AwayFromMean, Category) %>% 
+    distinct()
+glimpse(mydata2)
+```
+
+
+## 9. Which states have higher and lower tuition from the mean?
+```{r fig.height=10}
+ggplot(mydata2) +
+    geom_bar(aes(x = reorder(State, -AwayFromMean), y = AwayFromMean, 
+                 fill = Category),
+             stat = "identity", position = "dodge") +
+    geom_hline(yintercept = 0, linetype = 2) +
+    coord_flip() +
+    scale_fill_brewer() +
+    labs(x = "State", y = "Away from the mean tuition") +
+    theme_LPD()
+    
+```
+
+
+This is an Rmarkdown document, you can find the code [here](https://github.com/orchid00/R4da/blob/master/ggplot2_tricks/us_avg_tuition.Rmd).
